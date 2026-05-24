@@ -33,7 +33,16 @@ def create_student_info(name: str, age: int, gpa: float) -> dict:
         >>> create_student_info("  Bob  ", 17, 1.5)
         {'name': 'Bob', 'age': 17, 'gpa': 1.5, 'is_passing': False}
     """
-    pass  # TODO: implement this function
+    return {
+        "name": name,
+        "age": age,
+        "gpa": gpa,
+        "is_passing": True
+    }
+
+    
+    # TODO: implement this function
+
 
 
 # ---------------------------------------------------------------------------
